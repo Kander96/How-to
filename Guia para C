@@ -4,3 +4,6 @@ gcc -Wall -O3 -o ejecutable.e codigo.c -lm
 
 Para correr ejecutable
 ./ejecutable.e
+
+
+gcc -Wall -O3 -o matrix.e percolacion.c -lm
