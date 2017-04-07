@@ -1,0 +1,32 @@
+GIT
+-para bajar un directorio a tu compu:
+git clone https://github.com/username/ditectory
+(esto crea OTRA carpeta en el directorio que estes)
+
+Inicializar un directorio
+git init
+
+hacer que git mire un archivo
+git add archivo.c
+
+hacer un commit 
+git commit -m 'mensaje del commit'
+
+Borrar un archivo (a la fuerza)
+git rm -f archivo.c
+
+Subir un repositorio local a github (tiene que existir en github ANTES)
+SIEMPRE HACER COMMIT ANTES O NO SUBE LOS CAMBIOS
+git remote add origin https://github.com/caroine96/REPOSITORIO.git
+git push -u origin master
+
+Si el directorio ya esta unido con el online alcanza con la ultima linea
+
+Cuando queres actualizar tu directorio con el online y ya esta inicializado
+git pull
+
+cuando queres tirar todos los cambios y volver al ultimo commit online
+git fetch origin
+git reset --hard origin/master
+
+MUY UTIL:http://rogerdudler.github.io/git-guide/

@@ -1,0 +1,6 @@
+C
+Para compilar ejecutable 
+gcc -Wall -O3 -o ejecutable.e codigo.c -lm
+
+Para correr ejecutable
+./ejecutable.e
