@@ -30,3 +30,15 @@ git fetch origin
 git reset --hard origin/master
 
 MUY UTIL:http://rogerdudler.github.io/git-guide/
+
+para setear
+git config --global user.email "your_email@example.com"
+
+para ver el seteado
+git config --global user.email
+
+git config user.name "Billy Everyteen"
+# Set a new name
+git config user.name
+# Verify the setting
+
